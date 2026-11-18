@@ -1265,7 +1265,11 @@
         "returnEnergy": "Enerji (ters)"
       }
     },
-    "empty": "Bu zaman aralığı için enerji verisi yok.",
+    "empty": {
+      "description": "Bu dönem için enerji verisi yok.",
+      "descriptionCurrent": "Henüz enerji verisi yok. İlk ölçümler kaydedildiğinde değerler görünür.",
+      "showCurrent": "Güncel dönemi göster"
+    },
     "flow": {
       "battery": "Batarya",
       "batteryCharge": "Batarya doldurma",
@@ -1338,12 +1342,15 @@
       "co2Saved": "CO₂ tasarrufu",
       "co2SavedTooltip": "Tüketilen {energy} enerjinin şebekeden çekilmesine kıyasla.",
       "configure": "Şimdi yapılandır",
+      "energy": "Enerji",
+      "fromGrid": "{value} şebekeden",
       "noCo2": "CO₂ verisi yok.",
       "noPrice": "Fiyat verisi yok.",
       "savings": "Tasarruf",
       "savingsTooltip": "Tüketilen {energy} enerjinin şebekeden satın alınmasına kıyasla.",
       "versus": "{value} / {reference}"
     },
+    "summary": "Özet",
     "title": "Enerji"
   },
   "footer": {
@@ -1486,6 +1493,7 @@
     "cancel": "İptal",
     "download": "İndir",
     "error": "Hata",
+    "loading": "Doluyor",
     "none": "yok",
     "note": "Not:",
     "warning": "Uyarı"
@@ -1680,6 +1688,7 @@
       "forecast": "Tahmin",
       "forecastTooltip": "“öngörü: bugün kalan güneşden üreti̇m”",
       "gridImport": "Şebekeden alım",
+      "heaters": "Isıtıcı | Isıtıcılar",
       "homePower": "Tüketim",
       "loadpoints": "Doldurma cihazı| Doldurma cihazı | {count} doldurma cihazları",
       "loadpointsLimit": "{limit} sınır",
@@ -1708,18 +1717,22 @@
       "avgPrice": "⌀ Fiyat",
       "charged": "Doldu",
       "co2": "⌀ CO₂",
+      "consumed": "Tüketilen",
       "duration": "Doldurma süresi",
       "emission": "Salım",
       "fallbackName": "Doldurma noktası",
       "finished": "Doldurma sonu",
       "last24hEnergy": "Son 24 saat",
+      "last24hShort": "24 saat",
       "last7dEnergy": "Son 7 gün",
+      "last7dShort": "7 gün",
       "phasesMismatch": "Yapılandırılandan daha fazla aşama etkin. Aşama yapılandırmasını kontrol et.",
       "power": "Güç",
       "price": "Maliyet",
       "remaining": "Kalan süre",
       "remoteDisabledHard": "{source}: kapatıldı",
       "remoteDisabledSoft": "{source}: uyumlu güneş enerjili doldurma kapatıldı",
+      "session": "Oturum",
       "solar": "Güneş Enerjisi",
       "todayEnergy": "Bugün"
     },
